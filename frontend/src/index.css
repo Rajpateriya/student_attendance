@@ -1,0 +1,46 @@
+/* src/index.css */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.attendance-form {
+  margin-bottom: 20px;
+}
+
+.attendance-list {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.attendance-list th, .attendance-list td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.attendance-list th {
+  background-color: #f2f2f2;
+}
+
+.class-selector {
+  margin-bottom: 20px;
+}
+
+.class-selector select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
